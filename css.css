@@ -208,7 +208,7 @@ ul {
 	cursor : hand;
 	text-decoration : underline;
 	font-style : italic;
-	}
+}
 
 .boxText{
 	font-family : Arial, Helvetica, sans-serif;
@@ -218,4 +218,7 @@ ul {
 	color: White;
 
 }
+.video {
+    height: auto;
+    object-fit: cover;
 }
