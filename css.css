@@ -1,0 +1,221 @@
+.textBlack{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 15px;
+	font-weight : bold;
+}
+
+.footnote{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 8px;
+	line-height : 8px;
+	margin-bottom : 0px;
+	margin-left : 0px;
+	margin-right : 0px;
+	margin-top : 0px;
+	padding-bottom : 0px;
+	padding-left : 1px;
+	padding-right : 0px;
+	padding-top : 0px;
+	text-decoration : underline;
+	color : White;
+}
+
+OL {
+	cursor : pointer;
+	left : 0px;
+	margin-bottom : 0px;
+	margin-left : 50px;
+	margin-top : 0px;
+	padding-bottom : 0px;
+	padding-top : 0px;
+}
+
+.button{
+	background-color : White;
+	color : Black;
+}
+
+.dir {
+	font-family : Arial, Helvetica, sans-serif;
+	color : Navy;
+	text-decoration : none;
+	font-size : 14px;
+	cursor : pointer;
+	font-weight : bold;
+}
+
+.img_link{
+	font-family : Arial, Helvetica, sans-serif;
+	color : Navy;
+	text-decoration : none;
+	font-size : 11px;
+	cursor : pointer;
+	font-weight : normal;
+}
+
+.img_linkB{
+	font-family : Arial, Helvetica, sans-serif;
+	color : Navy;
+	text-decoration : none;
+	font-size : 11px;
+	cursor : pointer;
+	font-weight : bold;
+	letter-spacing : 1px;
+}
+
+.text {
+	font-family : Arial, Helvetica, sans-serif;
+	color : White;
+	ime-mode : inactive;
+	text-decoration : none;
+	font-size : 12px;
+	cursor : default;
+}
+
+.contact{
+	font-family : Arial, Helvetica, sans-serif;
+	color : White;
+	ime-mode : inactive;
+	text-decoration : none;
+	font-size : 13px;
+	cursor : default;
+}
+
+.textWhite {
+	font-family : Arial, Helvetica, sans-serif;
+	color : White;
+	ime-mode : inactive;
+	text-decoration : none;
+	font-size : 12px;
+	cursor : default;
+	}
+
+.disabledText {
+	font-family : Arial, Helvetica, sans-serif;
+	color : #9DAD56;
+	text-decoration : none;
+	font-size : 15px;
+	cursor : default;
+	ime-mode : inactive;
+}
+
+.HR {
+	color : White;
+	padding-top : 0px;
+	padding-bottom : 0px;
+	height : 1px;
+	width : 95%;
+}
+
+
+.mi {
+	font-family : Arial, Helvetica, sans-serif;
+	color : Navy;
+	text-decoration : none;
+	font-size : 15px;
+	cursor : pointer;
+	font-weight : normal;
+}
+
+.miSmall {
+	font-family : Arial, Helvetica, sans-serif;
+	color : Navy;
+	text-decoration : none;
+	font-size : 13px;
+	cursor : pointer;
+	font-weight : normal;
+}
+
+.miSmalldisabled {
+	font-family : Arial, Helvetica, sans-serif;
+	color : Navy;
+	text-decoration : none;
+	font-size : 13px;
+	cursor : default;
+	font-weight : normal;
+}
+
+.miB{
+	font-family : Arial, Helvetica, sans-serif;
+	color : Navy;
+	text-decoration : none;
+	font-size : 15px;
+	cursor : pointer;
+	font-weight : bolder;
+}
+
+.miW {
+	font-family : Arial, Helvetica, sans-serif;
+	color : White;
+	text-decoration : none;
+	font-size : 14px;
+	cursor : pointer;
+	font-weight : normal;
+	}
+	
+.caption {
+	color : White;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 18px;
+	ime-mode : disabled;
+	cursor : default;
+	font-weight : normal;
+}
+
+.captionBig {
+	color : White;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 28px;
+	ime-mode : disabled;
+	cursor : default;
+	font-weight : normal;
+}
+
+.subCaption {
+	color : White;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 16px;
+	ime-mode : disabled;
+	cursor : default;
+	font-weight : bold;
+}
+
+ul {
+	padding-top : 0px;
+	cursor : default;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	text-align : left;
+	list-style-type : square;
+	margin-top : 0px;
+	color : White;
+}
+
+.subCaptionSmall {
+	color : White;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	ime-mode : disabled;
+	cursor : default;
+	font-weight : bold;
+}
+
+.link {
+	color : Black;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	ime-mode : auto;
+	cursor : hand;
+	text-decoration : underline;
+	font-style : italic;
+	}
+
+.boxText{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	cursor : default;
+	border: 1px solid White;
+	color: White;
+
+}
+}

@@ -1,0 +1,413 @@
+/* Global */
+
+body {
+	font-family: "Trebuchet MS", sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #000000;
+	font-size: 1em;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+#page {
+
+	padding: 0 10px 0 10px;
+
+	clear: both;
+
+}
+
+
+
+/* Header */
+
+#header {
+	padding: 0 0 8px 0;
+	margin: 0 0 4px 0;
+	background-color: #000000;
+
+}
+
+* html #header {
+
+	height: 1%;
+
+}
+
+#headerContent {
+	background-color: #000000;
+	background-image: url(../images/logo-white.png);
+	background-repeat: no-repeat;
+	background-position: 2% 10px;
+	margin: 0px;
+	padding: 60px;
+	padding-left: 100px;
+/* DAMIR BCE2EF CFEBFD*/
+}
+
+#imageArea {
+	/*height: 1.1em;
+
+	background: #D8D8D8;*/
+
+	padding: 0px 0px 0px 0px;
+
+}
+
+#infoArea {
+	color: #FFFFFF;
+	background-color: #000000;
+	font-family: "Trebuchet MS", sans-serif;
+
+	/*border: 1px solid black;*/
+
+}
+
+#infoArea h1 {
+	padding: 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 80px;
+	font-family: "Trebuchet MS", sans-serif;
+
+}
+
+#infoArea h2 {
+
+	padding: 2px 0 2px 0;
+
+	margin: 0;
+
+	font-size: 0.8em; 
+
+	font-weight: bold;
+
+	float: right;
+
+}
+
+
+
+/* Content */
+
+#contentArea {
+	float: left;
+	/* Opera5.02 will show a space at 
+
+	right when there is no scroll bar */
+
+	padding: 0 0 0 0;
+	margin: 0 0 0 2%;
+	border: 0;
+	width: 74%;
+	color: #999999;
+
+}
+
+
+
+#contentTable {
+	width: 100%;
+	/*background: #D8D8D8 url(../images/ftop.gif) top repeat-x;*/
+
+	background-color: #FFFFFF;
+	padding: 0;
+	border-bottom: 1px solid #FFFFFF;
+
+}
+
+#contentTable thead {
+	margin: 0;
+	border: 0;
+	color: #FFFFFF;
+
+}
+
+/*
+
+Ovo nece da radi kako bih zeleo
+
+#contentTable thead tr {
+
+	background: transparent url(../images/frighttop.gif) top right no-repeat;
+
+}*/
+
+#contentTable tbody {
+	background-color: #FFFFFF;
+	font-size: 0.6em;
+}
+
+#contentTable td img {
+
+	vertical-align: middle;
+
+}
+
+#contentTable th {
+	font-size: 0.7em;
+	font-weight: bolder;
+}
+
+.tdRow, .tdActions {
+	font-weight: normal;
+	text-align: center;
+	font-size: 1.1em;
+
+}
+
+
+
+.row {
+	background-color: #FFFFFF;
+
+}
+
+.rowOver {
+	background-color: #CCCCCC;
+
+}
+
+
+
+/* Menu */
+
+/* Blok prepun hack-ova namenjenih explorer-u */
+
+#menuArea {
+	float: left;
+	position: relative;
+	display: inline;
+	padding: 0 1% 0 0;
+	margin: 0;
+	border: 0;
+	width: 23%; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 19%;
+
+}
+
+html>body #menuArea {
+
+	width: 19%; /* ie5win fudge ends */
+
+}
+
+/* reci exlporeru da ne pravi idotsku kutiju koju samo on zna zasto kreira */
+
+* html #menuArea {
+
+	height: 1%;
+
+}
+
+.menuBox {
+	width: 100%;
+	/* DAMIR   BCE2EF     */
+	padding: 0;
+	margin: 0;
+	position: relative;
+	font-size: 0.9em;
+	display: block;
+	background-color: #000000;
+
+	/*border: 1px solid black;*/
+
+}
+#page #menuArea .menuBox #menu1 a {
+	color: #333333;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 1em;
+}
+#page #menuArea .menuBox #menu2 a {
+	color: #000000;
+}
+
+
+* html div.menuBox {
+
+	height: 1%;
+
+}
+
+.menuBox .menuTitle {
+	background-color: #999999;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.menuTitle h3 {
+	padding: 3px 10px 3px 10px;
+	margin: 0;
+	font-size: 16px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #990000;
+	color: #FFFFFF;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+/* samo exploreru treba ova glupost, ostali browser-i se slude */
+
+* html .menuTitle h3 {
+
+	position: relative;
+
+}
+
+.menuTitle img {
+
+	float: right;
+
+	margin: 3px;
+
+	cursor: pointer;
+
+}
+
+/* opet expolreru udovoljeno, padding i height */
+
+.menuFooter {
+	padding-bottom: 1px;
+	height: 8px;
+	background-color: #000000;
+
+}
+
+
+
+#menuArea ul {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	border: 1px solid #CBCBCB;
+
+}
+
+#menuArea ul li {
+
+	list-style-type: none;
+
+	padding: 0;
+
+	margin: 0;
+
+	position: relative;
+
+}
+
+#menuArea ul li a {
+	text-decoration: none;
+	display: block;
+	border-bottom: 1px solid #CBCBCB;
+	margin: 0;
+	padding: 3px 3px 3px 5px;
+	position: relative;
+	background-color: #FFFFFF;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 16px;
+}
+
+* html #menuArea ul li a {
+
+	height: 1%;
+
+}
+
+#menuArea ul li a:hover {
+	background-color: #FFFFFF;
+
+}
+
+
+
+/* Forma, toolbar */
+
+form, #toolArea {
+	padding: 0;
+	margin: 0 0 10px 0;
+	font-size: 0.9em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	
+
+	/*width: 100%;*/
+
+}
+
+* html #toolArea {
+
+	position: relative;
+
+	
+
+}
+
+.formHeader {
+	margin: 0;
+	border: 0;
+	background-color: #990000;
+	font-size: 1.2em;
+
+}
+
+.formHeader h2, #buttons {
+	font-size: 0.8em;
+	font-weight: bold;
+	padding: 3px;
+	margin: 0;
+	background-color: #990000;
+	color: #FFFFFF;
+
+}
+
+#buttons {
+
+	padding-top: 5px;
+
+}
+
+#buttons button {
+	background-color: #FFFFCC;
+	margin-right: 3px;
+
+}
+
+.formBody {
+	border: 1px solid #CCCCCC;
+	font-size: 1em;
+	padding: 5px;
+	background-color: #FFFFFF;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+.formFooter {
+	padding: 3px;
+	padding-bottom: 0px;
+	background-color: #FFFFFF;
+}
+
+.formFooter input {
+	background-color: #FFFFFF;
+
+}
+
+fieldset {
+	border: 0px solid #FFFFFF;
+	padding: 0em;
+
+}
+
+legend {
+	padding: 0 0.3em 0 0.3em;
+	margin: 0 0 3px 0;
+	background-color: #FFFFFF;
+	border: 1px solid #CBCBCB;
+
+}
