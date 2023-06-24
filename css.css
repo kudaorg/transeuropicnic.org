@@ -246,3 +246,7 @@ ul {
     vertical-align: middle;
     border-radius: 5px;
 }
+main h1 a {
+    color: navy;
+    font-size: small;
+}
