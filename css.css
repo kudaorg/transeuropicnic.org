@@ -222,3 +222,27 @@ ul {
     height: auto;
     object-fit: cover;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+.gallery a {
+    flex-basis: 300px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3;
+}
+.gallery a img {
+    object-fit: cover;
+    width: 300px;
+    height: 225px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
